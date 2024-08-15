@@ -55,3 +55,15 @@ def divide_numbers():
         print("Error: Por favor ingrese solo valores numericos.")
 
 divide_numbers()
+
+# Solicitar al usuario ingresar el primer número
+numero1 = float(input("Por favor, ingresa el primer número: "))
+
+# Solicitar al usuario ingresar el segundo número
+numero2 = float(input("Por favor, ingresa el segundo número: "))
+
+# Calcular la multiplicación de ambos números
+resultado = numero1 * numero2
+
+# Mostrar el resultado
+print(f"El resultado de multiplicar {numero1} por {numero2} es: {resultado}")
